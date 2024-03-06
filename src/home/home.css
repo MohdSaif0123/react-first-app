@@ -1,0 +1,14 @@
+.main-content {
+    display: flex;
+    align-items: stretch;
+
+    .side-bar {
+        flex-grow: 2;
+        background-color: yellow;
+    }
+
+    .products {
+        flex-grow: 8;
+        background-color: magenta;
+    }
+}
